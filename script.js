@@ -73,7 +73,7 @@ function insertDB(usuario) {
     dbUser.push(usuario);
 }
 
-function cadastrarUsuario(nome, agencia) {
+function cadastrarUsuario(nome, senha, perfil, agencia) {
     var id = dbUser.length + 1;
     var saldo = 0;
     var usuario = new Usuario(id, nome, senha, perfil, saldo, agencia);
